@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\projects c plysplus\cezar_lib\cezar_lib_plugin.csproj" />
+    <ProjectReference Include="..\..\projects c plysplus\cipher_plugin_lfsr\cipher_plugin_lfsr\cipher_plugin_lfsr.csproj" />
+  </ItemGroup>
+
+</Project>
